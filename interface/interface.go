@@ -8,7 +8,7 @@ type HasName interface {
 
 func SayHello(hasname HasName) {
 	fmt.Println("Hello", hasname.GetName())
-} 
+}
 
 // Struct Person
 type Person struct {
